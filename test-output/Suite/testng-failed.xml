@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="57"/>
+    <classes>
+      <class name="grid.testng.SampleTest">
+        <methods>
+          <include name="runTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- grid.testng.SampleTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
